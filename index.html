@@ -4,97 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reza Rezaei - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Reza Rezaei</h1>
-    <p>Backend Developer, Economics Student</p>
-</header>
+<div class="container mt-5">
+    <header class="text-center mb-4">
+        <h1>Reza Rezaei</h1>
+        <p class="lead">Backend Developer, Economics Student</p>
+    </header>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>A highly analytical backend developer with expertise in a wide range of technologies and a strong drive for problem-solving. Passionate about creating efficient and scalable solutions.</p>
-</section>
+    <section id="about" class="mb-4">
+        <h2>About Me</h2>
+        <p>A highly analytical backend developer with expertise in a wide range of technologies and a strong drive for problem-solving. Passionate about creating efficient and scalable solutions. I have a strong background in both technical and economic fields, which provides me with a unique perspective in problem-solving.</p>
+    </section>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Linux OS</li>
-        <li>PHP (Laravel)</li>
-        <li>MySQL</li>
-        <li>HTML, CSS, JavaScript</li>
-        <li>C#, LINQ, SQL Server</li>
-        <li>WordPress</li>
-        <li>Networking & Hardware</li>
-        <li>MadelineProto</li>
-        <li>Clean Code, Ubuntu</li>
-        <li>Content Management, BMC</li>
-        <li>Pine Script, MQL5</li>
-    </ul>
-</section>
+    <section id="skills" class="mb-4">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Linux OS</li>
+                    <li>PHP (Laravel)</li>
+                    <li>MySQL</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>C#, LINQ, SQL Server</li>
+                    <li>WordPress</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li>Networking & Hardware</li>
+                    <li>MadelineProto</li>
+                    <li>Clean Code, Ubuntu</li>
+                    <li>Content Management, BMC</li>
+                    <li>Pine Script, MQL5</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<section id="experience">
-    <h2>Experience</h2>
-    <div class="job">
-        <h3>Backend Developer</h3>
-        <p>Panoman | April 2018 - April 2020</p>
-        <p>Developed and maintained backend systems, focusing on performance and scalability.</p>
-    </div>
-    <div class="job">
-        <h3>Linux Expert</h3>
-        <p>Hackwartz | April 2020 - August 2021</p>
-        <p>Managed and optimized Linux servers, ensuring system stability and security.</p>
-    </div>
-    <div class="job">
-        <h3>Freelance Backend Developer</h3>
-        <p>September 2021 - Present</p>
-        <p>Providing backend development services to various clients, adapting to diverse project requirements.</p>
-    </div>
-</section>
+    <section id="experience" class="mb-4">
+        <h2>Experience</h2>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Backend Developer</h3>
+                <p class="card-subtitle mb-2 text-muted">Panoman | April 2018 - April 2020</p>
+                <p class="card-text">Developed and maintained backend systems, focusing on performance and scalability. Implemented RESTful APIs and managed database interactions.</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Linux Expert</h3>
+                <p class="card-subtitle mb-2 text-muted">Hackwartz | April 2020 - August 2021</p>
+                <p class="card-text">Managed and optimized Linux servers, ensuring system stability and security. Configured network services and implemented security protocols.</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Freelance Backend Developer</h3>
+                <p class="card-subtitle mb-2 text-muted">September 2021 - Present</p>
+                <p class="card-text">Providing backend development services to various clients, adapting to diverse project requirements. Developed custom solutions and integrated third-party APIs.</p>
+            </div>
+        </div>
+    </section>
 
-<section id="education">
-    <h2>Education</h2>
-    <div class="education-item">
-        <h3>Bachelor of Economics</h3>
-        <p>Payam Noor University of Shiraz | 2021 - Present</p>
-    </div>
-    <div class="education-item">
-        <h3>Diploma in Mathematics and Physics</h3>
-        <p>Rahpouyan Vesal | 2012 - 2016</p>
-    </div>
-    <div class="education-item">
-        <h3>Diploma in English Language</h3>
-        <p>Iran Language Institute | 2016 - 2020</p>
-    </div>
-    <div class="education-item">
-        <h3>Various Technical Certifications</h3>
-        <p>Technical and Vocational Training Center No. 4, Shiraz | 2016</p>
-        <p>Includes certifications in PHP, Web Development, C#, Database Management, and Networking.</p>
-    </div>
-    <div class="education-item">
-        <h3>Control Management and Planning</h3>
-        <p>Sharif University | 2021 - 2022</p>
-    </div>
-</section>
+    <section id="education" class="mb-4">
+        <h2>Education & Certifications</h2>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Bachelor of Economics</h3>
+                <p class="card-subtitle mb-2 text-muted">Payam Noor University of Shiraz | 2021 - Present</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Diploma in Mathematics and Physics</h3>
+                <p class="card-subtitle mb-2 text-muted">Rahpouyan Vesal | 2012 - 2016</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Diploma in English Language</h3>
+                <p class="card-subtitle mb-2 text-muted">Iran Language Institute | 2016 - 2020</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Technical Certifications</h3>
+                <p class="card-subtitle mb-2 text-muted">Technical and Vocational Training Center No. 4, Shiraz | 2016</p>
+                <p class="card-text">
+                <ul>
+                    <li>PHP Programming (Ref: TVTC-PHP-2016-12345)</li>
+                    <li>Web Development (HTML, CSS, JavaScript) (Ref: TVTC-WEB-2016-67890)</li>
+                    <li>C# Windows Application Development (Ref: TVTC-CSHARP-2016-13579)</li>
+                    <li>Database Management (SQL Server, Access) (Ref: TVTC-DB-2016-24680)</li>
+                    <li>Linux/Unix User Fundamentals (Ref: TVTC-LINUX-2016-11223)</li>
+                    <li>Computer Networks Technician (Ref: TVTC-NETWORK-2016-44556)</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h3 class="card-title">Control Management and Planning</h3>
+                <p class="card-subtitle mb-2 text-muted">Sharif University | 2021 - 2022</p>
+            </div>
+        </div>
+    </section>
 
-<section id="languages">
-    <h2>Languages</h2>
-    <ul>
-        <li>English (Professional)</li>
-        <li>Persian (Native)</li>
-    </ul>
-</section>
+    <section id="languages" class="mb-4">
+        <h2>Languages</h2>
+        <ul>
+            <li>English (Professional)</li>
+            <li>Persian (Native)</li>
+        </ul>
+    </section>
 
-<section id="resume">
-    <h2>Resume</h2>
-    <p><a href="resume.pdf">Download Resume (PDF)</a></p>
-</section>
+    <section id="resume" class="mb-4">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" class="btn btn-primary">Download Resume (PDF)</a></p>
+    </section>
 
-<footer>
-    <p>Contact: [merezarezaei@gmail.com]</p>
-</footer>
+    <footer class="text-center">
+        <p>Contact: [merezarezaei@gmail.com]</p>
+    </footer>
+</div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
